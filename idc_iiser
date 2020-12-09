@@ -1,0 +1,57 @@
+import os
+fd=open( "/Users/asishkumarswain/Downloads/idc/q2_msa.fasta",'r')
+lin=fd.readlines()
+line=lin[2:]
+lines=[]
+for i in line:
+    lines.append(i.rstrip('\n'))
+lines2=[]
+for i in lines:
+   lines2.append(i.split('\s'))
+import re
+#print lines2
+#seq
+#for i lines:
+#    seq.append()
+seq=[]
+#for i in lines:
+#    seq[i[0]]=i[1]
+seq1=[]
+for i in lines:
+    x=re.search(r'(\w*)\s*([-\w+]*)',i)
+    y=x.group(1)
+    seq1.append(x.group(2))
+for i in seq1:
+    if len(i)>30:
+        seq.append(i)
+y=len(seq)
+seq2=[]
+j=0
+while j<y:
+    seq2.append(seq[j:j+10])
+    j=j+10
+#print seq2[0][]
+#for i in range(len(seq2)):
+#    for k in range(len(seq[i])):
+#       print seq2[i][i][k]
+seq3=[]
+xx=0
+while xx<10:
+      for i in range(len(seq2)):
+          seq3.append(seq2[i][xx])
+      xx=xx+1
+seq4=[]
+var=0
+while var<100:
+    seq4.append(''.join(seq3[var:var+10]))
+    var=var+10
+seq5=[]
+sha=[]
+x=0
+for i in range(len(seq4)):
+    while x<500:
+          seq5.append(seq4[i][x])
+          x=x+1
+sha.append(len(seq5))
+seq5=[]
+print seq5    
