@@ -2,4 +2,4 @@
 
 1.diy_transcriptomics- annotation+normalization.html
 
-   https://raw.githack.com/namikaze-asis/learn/tree/main/diy_transcriptomics
+https://rawcdn.githack.com/namikaze-asis/learn/a0bb51dd21a58d978b86cf30ed81555c57bd4525/diy_transcriptomics/annotation+normalization.html
