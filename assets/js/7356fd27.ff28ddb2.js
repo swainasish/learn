@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprompt_101=self.webpackChunkprompt_101||[]).push([[545],{9737:a=>{a.exports=JSON.parse('{"allTagsPath":"/learn/blog/tags","slug":"/learn/blog/tags/hola","name":"hola","count":1,"permalink":"/learn/blog/tags/hola"}')}}]);

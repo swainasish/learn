@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprompt_101=self.webpackChunkprompt_101||[]).push([[522],{3664:a=>{a.exports=JSON.parse('{"allTagsPath":"/learn/blog/tags","slug":"/learn/blog/tags/facebook","name":"facebook","count":1,"permalink":"/learn/blog/tags/facebook"}')}}]);
